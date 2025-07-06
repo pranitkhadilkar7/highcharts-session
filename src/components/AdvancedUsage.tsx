@@ -16,6 +16,9 @@ export function AdvancedUsage() {
           <p className="text-2xl">Custom Renderers</p>
         </li>
         <li>
+          <p className="text-2xl">Plot Lines</p>
+        </li>
+        <li>
           <p className="text-2xl">Exporting Charts</p>
         </li>
       </ul>
