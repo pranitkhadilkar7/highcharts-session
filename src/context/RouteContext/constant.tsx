@@ -1,3 +1,4 @@
+import { AdvancedUsage } from '../../components/AdvancedUsage'
 import { Agenda } from '../../components/Agenda'
 import { QuickStart } from '../../components/QuickStart'
 import { Welcome } from '../../components/Welcome'
@@ -12,4 +13,5 @@ export const ROUTES_COMPONENTS: Record<Routes, React.ReactNode> = {
   '/what-is-highcharts': <WhatIsHCharts />,
   '/why-highcharts': <WhyHighcharts />,
   '/quick-start': <QuickStart />,
+  '/advanced-usage': <AdvancedUsage />,
 }

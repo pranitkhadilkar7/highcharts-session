@@ -1288,6 +1288,16 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
+highcharts-react-official@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/highcharts-react-official/-/highcharts-react-official-3.2.2.tgz#19e0c7d3746af5802b381d40253de4e63084dd02"
+  integrity sha512-2kkWOB6RpdR26fmAJkrtJFG9xWFUDGKWyat88tW3fa/3l/Jc7D5ZfwTng2MZsdiKIH32AFy0Pr75udUe7uN6LA==
+
+highcharts@^12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-12.3.0.tgz#aa1c12cc98072ab5fde187d93806c58493506e44"
+  integrity sha512-QIKmaemgheRa1K2Ia9MLj1KLtBU1Tu/VQ6KAMqtMBMsAC4NzcFq6g96LF03ZO3IFFiSifmZx8ItEyRcz4w75cg==
+
 ignore@^5.2.0:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.2.tgz#3cd40e729f3643fd87cb04e50bf0eb722bc596f5"

@@ -5,6 +5,7 @@ export type Routes =
   | '/what-is-highcharts'
   | '/why-highcharts'
   | '/quick-start'
+  | '/advanced-usage'
 
 export type RouteContextType = {
   route: Routes
