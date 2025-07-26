@@ -12,6 +12,10 @@ const ROUTES: Routes[] = [
   '/formatters',
   '/responsive-design',
   '/custom-renderers',
+  '/explorting',
+  '/actual-usage',
+  '/q-and-a',
+  '/thank-you',
 ]
 
 // ... existing code ...

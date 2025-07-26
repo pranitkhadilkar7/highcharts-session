@@ -11,6 +11,10 @@ export type Routes =
   | '/formatters'
   | '/responsive-design'
   | '/custom-renderers'
+  | '/explorting'
+  | '/actual-usage'
+  | '/q-and-a'
+  | '/thank-you'
 
 export type RouteContextType = {
   route: Routes

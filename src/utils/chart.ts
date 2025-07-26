@@ -1,5 +1,10 @@
 import Highcharts from 'highcharts'
 
+// Import exporting modules - these automatically extend Highcharts
+import 'highcharts/modules/exporting'
+import 'highcharts/modules/offline-exporting'
+import 'highcharts/modules/accessibility'
+
 export function setGlobalSettings() {
   Highcharts.setOptions({
     chart: {
@@ -15,6 +20,9 @@ export function setGlobalSettings() {
     },
     credits: {
       enabled: false,
+    },
+    exporting: {
+      enabled: true,
     },
     legend: {
       layout: 'vertical',
