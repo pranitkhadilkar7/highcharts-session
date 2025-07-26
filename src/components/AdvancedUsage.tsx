@@ -10,13 +10,13 @@ export function AdvancedUsage() {
           <p className="text-2xl">Interactive Features</p>
         </li>
         <li>
+          <p className="text-2xl">Custom Formatters</p>
+        </li>
+        <li>
           <p className="text-2xl">Responsive Design</p>
         </li>
         <li>
           <p className="text-2xl">Custom Renderers</p>
-        </li>
-        <li>
-          <p className="text-2xl">Plot Lines</p>
         </li>
         <li>
           <p className="text-2xl">Exporting Charts</p>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { PrimaryButton } from './Buttons/PrimaryButton'
 import { GroupedBarChart } from './highcharts-demo/GroupedBarChart'
 
-export function InteractiveFeatures() {
+export function ResponsiveDesign() {
   const [showChart, setShowChart] = useState(false)
 
   const handleShowChart = () => {
@@ -12,22 +12,29 @@ export function InteractiveFeatures() {
   return (
     <div className="flex flex-col h-full w-full overflow-y-auto">
       <div className="flex flex-col items-center justify-center mt-16">
-        <h1 className="text-5xl font-bold">Interactive Features</h1>
+        <h1 className="text-5xl font-bold">Responsive Design</h1>
         <ul className="list-disc ml-8 mt-4 text-2xl">
           <li>
             <p className="text-2xl">
-              Often we want to add interactivity to our charts.
+              We can create responsive charts much the same way you work with
+              responsive web pages
+            </p>
+          </li>
+          <li>
+            <p className="text-2xl">
+              It lets you define a set of rules, for each condition, for example
+              maxWidth: 500
             </p>
           </li>
           <li>
             <p className="text-2xl">Examples</p>
             <ul className="list-disc ml-8 text-2xl">
               <li>
-                <p className="text-xl">Execute a function when chart loads</p>
+                <p className="text-xl">Hide legend when screen is small</p>
               </li>
               <li>
                 <p className="text-xl">
-                  Execute a function when legend is clicked
+                  Change style of chart when screen is small
                 </p>
               </li>
             </ul>
@@ -40,11 +47,22 @@ export function InteractiveFeatures() {
           onClick={handleShowChart}
         />
       </div>
-      {showChart && (
+      {showChart ? (
         <div className="w-full mb-5 p-5">
           <GroupedBarChart />
+          <div className="grid grid-cols-3 gap-4 my-4">
+            <GroupedBarChart />
+            <GroupedBarChart />
+            <GroupedBarChart />
+          </div>
+          <div className="grid grid-cols-4 gap-4">
+            <GroupedBarChart />
+            <GroupedBarChart />
+            <GroupedBarChart />
+            <GroupedBarChart />
+          </div>
         </div>
-      )}
+      ) : null}
     </div>
   )
 }

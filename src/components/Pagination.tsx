@@ -10,6 +10,7 @@ const ROUTES: Routes[] = [
   '/global-settings',
   '/interactive-features',
   '/formatters',
+  '/responsive-design',
 ]
 
 // ... existing code ...

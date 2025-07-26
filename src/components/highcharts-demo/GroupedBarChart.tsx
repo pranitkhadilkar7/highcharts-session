@@ -49,6 +49,9 @@ export function GroupedBarChart() {
       accessibility: {
         description: 'Countries',
       },
+      title: {
+        text: 'Countries',
+      },
     },
     yAxis: {
       min: 0,

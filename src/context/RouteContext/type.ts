@@ -9,6 +9,7 @@ export type Routes =
   | '/global-settings'
   | '/interactive-features'
   | '/formatters'
+  | '/responsive-design'
 
 export type RouteContextType = {
   route: Routes

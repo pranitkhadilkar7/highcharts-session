@@ -4,6 +4,7 @@ import { Formatters } from '../../components/Formatters'
 import { GlobalSettings } from '../../components/GlobalSettings'
 import { InteractiveFeatures } from '../../components/InteractiveFeatures'
 import { QuickStart } from '../../components/QuickStart'
+import { ResponsiveDesign } from '../../components/ResponsiveDesign'
 import { Welcome } from '../../components/Welcome'
 import { WhatIsHCharts } from '../../components/WhatIsHCharts'
 import { WhyHighcharts } from '../../components/WhyHighcharts'
@@ -20,4 +21,5 @@ export const ROUTES_COMPONENTS: Record<Routes, React.ReactNode> = {
   '/global-settings': <GlobalSettings />,
   '/interactive-features': <InteractiveFeatures />,
   '/formatters': <Formatters />,
+  '/responsive-design': <ResponsiveDesign />,
 }
