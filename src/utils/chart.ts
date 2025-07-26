@@ -21,6 +21,10 @@ export function setGlobalSettings() {
       align: 'right',
       verticalAlign: 'middle',
     },
+    tooltip: {
+      useHTML: true,
+      outside: true,
+    },
     // colors: ['red', 'green', 'blue', 'yellow', 'purple'],
     // xAxis: {
     //   title: {

@@ -9,6 +9,7 @@ const ROUTES: Routes[] = [
   '/advanced-usage',
   '/global-settings',
   '/interactive-features',
+  '/formatters',
 ]
 
 // ... existing code ...

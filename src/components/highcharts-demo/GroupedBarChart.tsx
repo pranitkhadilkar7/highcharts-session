@@ -1,5 +1,25 @@
-import Highcharts from 'highcharts'
+import Highcharts, {
+  Legend,
+  Point,
+  Series,
+  type LegendItemClickEventObject,
+} from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
+
+function legendClickHandler() {
+  return function (this: Legend, event: LegendItemClickEventObject) {
+    event.preventDefault()
+    console.log('Legend item clicked')
+  }
+}
+
+function legendLabelFormatter(this: Point | Series) {
+  return `${this.name} Production`
+}
+
+function tooltipFormatter(this: Point) {
+  return `<div style="font-size: 14px"><b>${this.series.name}</b> - <span style="color: #616365;">${this.y}</span></div>`
+}
 
 export function GroupedBarChart() {
   const option: Highcharts.Options = {
@@ -38,14 +58,13 @@ export function GroupedBarChart() {
     },
     tooltip: {
       valueSuffix: ' (1000 MT)',
+      formatter: tooltipFormatter,
     },
     legend: {
       events: {
-        itemClick: function (event) {
-          console.log(event.preventDefault())
-          console.log('Legend item clicked')
-        },
+        itemClick: legendClickHandler(),
       },
+      labelFormatter: legendLabelFormatter,
     },
     plotOptions: {
       column: {

@@ -8,6 +8,7 @@ export type Routes =
   | '/advanced-usage'
   | '/global-settings'
   | '/interactive-features'
+  | '/formatters'
 
 export type RouteContextType = {
   route: Routes

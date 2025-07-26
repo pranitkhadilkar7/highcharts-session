@@ -1,5 +1,6 @@
 import { AdvancedUsage } from '../../components/AdvancedUsage'
 import { Agenda } from '../../components/Agenda'
+import { Formatters } from '../../components/highcharts-demo/Formatters'
 import { GlobalSettings } from '../../components/highcharts-demo/GlobalSettings'
 import { InteractiveFeatures } from '../../components/highcharts-demo/InteractiveFeatures'
 import { QuickStart } from '../../components/QuickStart'
@@ -18,4 +19,5 @@ export const ROUTES_COMPONENTS: Record<Routes, React.ReactNode> = {
   '/advanced-usage': <AdvancedUsage />,
   '/global-settings': <GlobalSettings />,
   '/interactive-features': <InteractiveFeatures />,
+  '/formatters': <Formatters />,
 }
