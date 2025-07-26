@@ -8,6 +8,7 @@ const ROUTES: Routes[] = [
   '/quick-start',
   '/advanced-usage',
   '/global-settings',
+  '/interactive-features',
 ]
 
 // ... existing code ...

@@ -7,6 +7,7 @@ export type Routes =
   | '/quick-start'
   | '/advanced-usage'
   | '/global-settings'
+  | '/interactive-features'
 
 export type RouteContextType = {
   route: Routes

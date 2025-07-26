@@ -22,7 +22,7 @@ export function GlobalSettings() {
           </p>
         </li>
         <li>
-          <p>
+          <p className="text-2xl">
             See use case at <code>src/utils/chart.ts</code>
           </p>
         </li>
