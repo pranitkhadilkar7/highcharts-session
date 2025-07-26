@@ -1,7 +1,9 @@
 import './App.css'
 import { Pagination } from './components/Pagination'
 import { useRoute } from './context/RouteContext'
-// import { Link } from './components/Link'
+import { setGlobalSettings } from './utils/chart'
+
+setGlobalSettings()
 
 function App() {
   const { component } = useRoute()

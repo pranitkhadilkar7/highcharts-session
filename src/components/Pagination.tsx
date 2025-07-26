@@ -7,6 +7,7 @@ const ROUTES: Routes[] = [
   '/why-highcharts',
   '/quick-start',
   '/advanced-usage',
+  '/global-settings',
 ]
 
 // ... existing code ...

@@ -14,7 +14,7 @@ export function WhyHighcharts() {
           </p>
         </li>
         <li>
-          <p className="text-2xl text-gray-300">
+          <p className="text-2xl">
             Built-in <b>accessibility</b> features for <b>screen readers</b>
           </p>
         </li>

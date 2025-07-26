@@ -6,10 +6,10 @@ export function QuickStart() {
       <h1 className="text-5xl font-bold">Quick Start With React</h1>
       <div className="flex flex-col mt-4">
         <p className="text-2xl">
-          <b>Step 1:</b> <i>yarn add highcharts</i>
+          <b>Step 1:</b> <code>yarn add highcharts</code>
         </p>
         <p className="text-2xl">
-          <b>Step 2:</b> <i>yarn add highcharts-react-official</i>
+          <b>Step 2:</b> <code>yarn add highcharts-react-official</code>
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-2xl mt-4">
