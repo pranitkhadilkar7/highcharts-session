@@ -11,6 +11,7 @@ const ROUTES: Routes[] = [
   '/interactive-features',
   '/formatters',
   '/responsive-design',
+  '/custom-renderers',
 ]
 
 // ... existing code ...

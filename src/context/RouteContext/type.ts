@@ -10,6 +10,7 @@ export type Routes =
   | '/interactive-features'
   | '/formatters'
   | '/responsive-design'
+  | '/custom-renderers'
 
 export type RouteContextType = {
   route: Routes

@@ -1,5 +1,6 @@
 import { AdvancedUsage } from '../../components/AdvancedUsage'
 import { Agenda } from '../../components/Agenda'
+import { CustomRenderers } from '../../components/CustomRenderers'
 import { Formatters } from '../../components/Formatters'
 import { GlobalSettings } from '../../components/GlobalSettings'
 import { InteractiveFeatures } from '../../components/InteractiveFeatures'
@@ -22,4 +23,5 @@ export const ROUTES_COMPONENTS: Record<Routes, React.ReactNode> = {
   '/interactive-features': <InteractiveFeatures />,
   '/formatters': <Formatters />,
   '/responsive-design': <ResponsiveDesign />,
+  '/custom-renderers': <CustomRenderers />,
 }
