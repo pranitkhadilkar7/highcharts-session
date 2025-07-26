@@ -1,7 +1,7 @@
 import Highcharts from 'highcharts'
 import HighchartsReact from 'highcharts-react-official'
 
-export function QuickLineSetup() {
+export function LineChart() {
   const option: Highcharts.Options = {
     chart: {
       type: 'line',
@@ -34,12 +34,12 @@ export function QuickLineSetup() {
     series: [
       {
         type: 'line',
-        name: 'Profit Amount',
+        name: 'Profit',
         data: [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500],
       },
       {
         type: 'line',
-        name: 'Loss Amount',
+        name: 'Loss',
         data: [2334, 1233, 123, 9876, 1234, 1234, 1234, 1234, 1234, 1234],
       },
     ],

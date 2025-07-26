@@ -1,4 +1,4 @@
-import { GroupedBarChart } from './GroupedBarChart'
+import { GroupedBarChart } from './highcharts-demo/GroupedBarChart'
 
 export function InteractiveFeatures() {
   return (

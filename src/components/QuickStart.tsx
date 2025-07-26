@@ -1,4 +1,4 @@
-import { QuickLineSetup } from './highcharts-demo/QuickLineSetup'
+import { LineChart } from './highcharts-demo/LineChart'
 
 export function QuickStart() {
   return (
@@ -13,7 +13,7 @@ export function QuickStart() {
         </p>
       </div>
       <div className="flex flex-col items-center justify-center w-2xl mt-4">
-        <QuickLineSetup />
+        <LineChart />
       </div>
     </div>
   )
